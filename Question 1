@@ -1,0 +1,10 @@
+1)     const myArr = [101,201,301,401,501];
+       const arrTwo = myArr.splice(0,5).slice(0,2);
+       arrTwo[0] = "001";
+       console.log(arrTwo);
+
+
+
+ans)   ["001",201]  
+The array is spliced and sliced. Both are javascript array functions. The splice method returns the removed items in an array and slice method returns the selected elements in an array, as a new array object.
+From myArr it delete 5 number from index 0 and then slice(0,2), By slicing it gives numbers from index 0 to index 2, Which is 101 and 201.But here the index 0 is replaced by "001".thus the answer is "001", 201
